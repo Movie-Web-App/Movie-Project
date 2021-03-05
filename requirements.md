@@ -47,14 +47,25 @@ Link our web app with cinema which is display the time of movies in the cinema d
 
 ***********************************************************************************************************************************************************************
 
-## Functional Requirements:
+## Functional Requirements: 
 
-1- User can sign up and sign in to the web app.
-2- user can add films to his favroite list and remove them.
-3- user can search on any film.
+  
 
-## 
+1. User can sign up and sign in to the web app. 
 
+2. User can add films to his favorite list and remove them. 
+
+3. User can search on any film. 
+
+  
+
+## Non-Functional Requirements: 
+
+  
+
+1. Availability: which allowed to the user sign in all time on the web app. 
+
+2. Usability: easy to use the web app and everything is clear to the user without any complications. 
 
 ************************************************************************************************************************************************************************
 
