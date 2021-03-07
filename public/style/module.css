@@ -221,6 +221,66 @@
     color: white;
 }
 
+.favorite-list-div{
+  width: 350px;
+  height: fit-content;
+  
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container-for-films{
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  }
+
+.favorite-list-div img{
+  width: 250px;
+  height: 350px;
+  padding: 15px;
+}
+
+.favorite-list-div h2, a{
+  color: white
+}
+
+#info{
+  padding-right: 125px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: x-small;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+
+
   
   
   /* @media screen and (max-height: 450px) {
