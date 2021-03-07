@@ -2,7 +2,7 @@
   "name": "The-Movie-Star",
   "version": "1.0.0",
   "description": "Group Members Name:",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
