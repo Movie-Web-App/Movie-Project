@@ -57,3 +57,27 @@ this.title=data.title
 this.description=data.description
 
 }
+
+server.get('/random',randomHandler)
+function randomHandler(req,res){
+let URL=`https://imdb-api.com/en/API/Top250Movies/k_ksrwxn1u`
+superagent.get(URL)
+.then(random=>{
+  let randomMov=random.body.items
+ 
+  let getRandom=randomMov.map(item=>{
+    return new Random(item)
+  })
+   console.log(getRandom[50].title)
+  res.render('pages/random',{random:getRandom[randomInt()]})
+})
+}
+function Random(data){
+  this.id=data.id
+  this.image=data.image
+  this.title=data.title
+  
+  }
+function randomInt() { 
+  return Math.floor(Math.random() * (250 - 0 + 1) + 0);
+}
